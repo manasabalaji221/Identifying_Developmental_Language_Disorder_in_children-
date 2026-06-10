@@ -1,0 +1,2 @@
+# Identifying_Developmental_Language_Disorder_in_children-
+An automated machine learning pipeline for DLD detection using the ENNI dataset comprising 352 children.  Three complementary feature groups are extracted: 206 acoustic features, 11 prosodic features via Praat, and 14 temporal features. Five classifiers —SVM, Random Forest, XGBoost, Logistic Regression, and Linear Discriminant Analysis (LDA). 
