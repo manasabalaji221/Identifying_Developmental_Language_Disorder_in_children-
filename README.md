@@ -28,7 +28,7 @@ The [Edmonton Narrative Norms Instrument (ENNI)](https://talkbank.org/childes/ac
 - **Two subsets** — A and B, each with three story levels
 - Each child has an `.mp3` audio file and a `.cha` CLAN transcript with millisecond-level speaker timestamps
 
-> The dataset must be downloaded separately from [TalkBank](https://talkbank.org/childes/access/Clinical-Eng/ENNI.html). It is not included in this repository.
+> The dataset must be downloaded separately from [TalkBank].
 
 ---
 
