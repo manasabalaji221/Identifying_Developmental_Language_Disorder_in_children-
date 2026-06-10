@@ -120,33 +120,6 @@ pip install librosa praat-parselmouth noisereduce scikit-learn xgboost imageio-f
 
 ---
 
-## Usage
-
-Run each step in order:
-
-```bash
-# Step 1 — Extract child-only audio from raw recordings
-python step1_extract_chi_audio.py
-
-# Step 2 — Extract acoustic features (MFCC + Log-Mel)
-python step2_acoustic_features.py
-
-# Step 3 — Extract prosodic features (F0, jitter, shimmer, HNR)
-python step3_prosodic_features.py
-
-# Step 4 — Extract temporal features from .cha timestamps
-python step4_temporal_features.py
-
-# Step 5 — Create child-level train/test split
-python step5_train_test_split.py
-
-# Step 6 — Train and evaluate SVM
-python step6_svm_classification.py
-
-# Step 7 — Compare all 5 models
-python step7_multi_model.py
-```
-
 ---
 
 ## Key Design Decisions
@@ -166,7 +139,7 @@ python step7_multi_model.py
 
 - Python 3.8+
 - Windows / Linux / macOS
-- ~4 GB RAM recommended for noise reduction on full dataset
+- ~8 GB RAM recommended for noise reduction on full dataset
 
 ---
 
@@ -176,11 +149,11 @@ If you use this code or pipeline, please cite:
 
 ```
 @misc{dld_enni_pipeline,
-  author = {Manas},
+  author = {Manasa Balaji},
   title  = {Automated Detection of Developmental Language Disorder Using
             Multi-Modal Speech Features},
   year   = {2025},
-  note   = {CUNY Spring 2026 — Speech and Audio Learning Final Project}
+  note   = {CUNY Graduate Center Spring 2026 — Speech and Audio Learning}
 }
 ```
 
@@ -189,7 +162,7 @@ If you use this code or pipeline, please cite:
 
 ---
 
-## Acknowledgements
+## References
 
 - [TalkBank CHILDES](https://talkbank.org/) for the ENNI corpus
 - [librosa](https://librosa.org/) for audio feature extraction
